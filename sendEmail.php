@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 // this is my own email address
 $siteOwnersEmail = 'qingan_zhao@berkeley.edu';
@@ -29,7 +29,7 @@ if($_POST) {
 
    // Set Message
    $message .= "Email from: " . $name . "<br />";
-	$message .= "Email address: " . $email . "<br />";
+   $message .= "Email address: " . $email . "<br />";
    $message .= "Message: <br />";
    $message .= $contact_message;
    $message .= "<br /> ----- <br /> This email was sent from your site's contact form. <br />";
