@@ -1,2 +1,2 @@
 # QinganZhao.github.io
-my personal website
+This is the repository of my personal website *franklinzhao.top*
