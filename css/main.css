@@ -1605,7 +1605,7 @@ header .logo a {
 	.intro-info img {
 		height: 6.6rem;
 		width: 6.6rem;
-		float: none;
+		float: left;
 		display: inline-block;
 	}
 	.intro-info .lead {
