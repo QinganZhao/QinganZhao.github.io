@@ -18,8 +18,8 @@
  *  10. intro
  *  11. about
  *  12. resume
- *  13. portfolio
- *  14. call-to-action section
+ *  13. projects
+ *  14. hobby section
  *  15. services
  *  16. stats
  *  17. contact
@@ -1785,21 +1785,21 @@ header .logo a {
 
 /** 
  * ===================================================================
- * 13. portfolio - (_layout.scss)
+ * 13. project - (_layout.scss)
  *
  * ------------------------------------------------------------------- 
  */
-#portfolio {
+#project {
 	background: #FFFFFF;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
-#portfolio .folio-item {
+#project .folio-item {
 	padding: 0;
 	position: relative;
 	overflow: hidden;
 }
-#portfolio .folio-item img {
+#project .folio-item img {
 	vertical-align: middle;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
@@ -1808,7 +1808,7 @@ header .logo a {
 	transition: all 0.5s ease-in-out;
 }
 
-#portfolio .overlay {
+#project .overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1822,12 +1822,12 @@ header .logo a {
 	transition: all 0.5s ease-in-out;
 }
 
-#portfolio .folio-item-table {
+#project .folio-item-table {
 	display: table;
 	width: 100%;
 	height: 100%;
 }
-#portfolio .folio-item-cell {
+#project .folio-item-cell {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
@@ -1840,13 +1840,13 @@ header .logo a {
 	left: -100%;
 }
 
-#portfolio .folio-title {
+#project .folio-title {
 	color: #FFFFFF;
 	font-size: 3.3rem;
 	padding: 0 3rem;
 	margin-bottom: 0;
 }
-#portfolio .folio-types {
+#project .folio-types {
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
@@ -1855,13 +1855,13 @@ header .logo a {
 	letter-spacing: .1rem;
 	color: rgba(255, 255, 255, 0.6);
 }
-#portfolio .folio-item:hover .overlay {
+#project .folio-item:hover .overlay {
 	background: rgba(0, 0, 0, 0.8);
 }
-#portfolio .folio-item:hover .folio-item-cell {
+#project .folio-item:hover .folio-item-cell {
 	left: 0;
 }
-#portfolio .folio-item:hover img {
+#project .folio-item:hover img {
 	-webkit-transform: scale(1.05);
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
@@ -1869,21 +1869,21 @@ header .logo a {
 
 /**
  * responsive:
- * portfolio
+ * project
  * ------------------------------------------------------------------- 
  */
 @media only screen and (max-width:1024px) {
-	#portfolio .folio-title {
+	#project .folio-title {
 		font-size: 3.1rem;
 	}
 }
 @media only screen and (max-width:768px) {
-	#portfolio .folio-title {
+	#project .folio-title {
 		font-size: 2.5rem;
 	}
 }
 @media only screen and (max-width:400px) {
-	#portfolio .folio-title {
+	#project .folio-title {
 		font-size: 2.2rem;
 	}
 }
@@ -2026,22 +2026,22 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
-#cta {
+#hobby {
 	padding-top: 10.2rem;
 	padding-bottom: 9rem;
 	text-align: center;
 }
-#cta p.lead {
+#hobby p.lead {
 	color: #6e6e6e;
 }
-.cta-content {
+.hobby-content {
 	max-width: 640px;
 }
-.cta-thumb {
+.hobby-thumb {
 	display: inline-block;
 	margin-bottom: 1.2rem;
 }
-.cta-thumb img {
+.hobby-thumb img {
 	height: 7.8rem;
 	width: 7.8rem;
 	border-radius: 50%;
@@ -2075,14 +2075,14 @@ header .logo a {
 
 /**
  * responsive:
- * cta
+ * hobby
  * -------------------------------------------------------------------
  */
 @media only screen and (max-width:650px) {
-	.cta-content {
+	.hobby-content {
 		max-width: 650px;
 	}
-	.cta-content h2 {
+	.hobby-content h2 {
 		font-size: 2.4rem;
 	}
 }
