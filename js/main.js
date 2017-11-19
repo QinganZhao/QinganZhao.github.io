@@ -227,7 +227,7 @@
 			$.ajax({      	
 
 		      type: "POST",
-		      url: "inc/sendEmail.php",
+		      url: "http://formspree.io/qingan_zhao@berkeley.edu",
 		      data: $(form).serialize(),
 		      beforeSend: function() { 
 
