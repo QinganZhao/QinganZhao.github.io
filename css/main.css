@@ -17,7 +17,7 @@
  *  09. header styles
  *  10. intro
  *  11. about
- *  12. resume
+ *  12. CV
  *  13. projects
  *  14. hobbies
  *  15. services
@@ -1616,31 +1616,31 @@ header .logo a {
 
 /** 
  * ===================================================================
- * 12. resume - (_layout.scss)
+ * 12. CV - (_layout.scss)
  *
  * ------------------------------------------------------------------- 
  */
-#resume {
+#CV {
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
 
-#resume .resume-header {
+#CV .CV-header {
 	text-align: center;
 }
-#resume .resume-header h2 {
+#CV .CV-header h2 {
 	color: #FF0077;
 }
 
-#resume .resume-timeline {
+#CV .CV-timeline {
 	max-width: 980px;
 }
-#resume .timeline-wrap {
+#CV .timeline-wrap {
 	position: relative;
 	margin-top: 1.5rem;
 	margin-bottom: 6rem;
 }
-#resume .timeline-wrap::before {
+#CV .timeline-wrap::before {
 	content: "";
 	display: block;
 	width: 1px;
@@ -1650,11 +1650,11 @@ header .logo a {
 	left: 35%;
 	top: 0;
 }
-#resume .timeline-block {
+#CV .timeline-block {
 	position: relative;
 	padding-top: 1.5rem;
 }
-#resume .timeline-ico {
+#CV .timeline-ico {
 	height: 4.8rem;
 	width: 4.8rem;
 	line-height: 4.8rem;
@@ -1667,35 +1667,35 @@ header .logo a {
 	top: .9rem;
 	margin-left: -2.4rem;
 }
-#resume .timeline-ico i {
+#CV .timeline-ico i {
 	position: relative;
 	left: .05rem;
 	top: .2rem;
 }
 
-#resume .timeline-header {
+#CV .timeline-header {
 	float: left;
 	width: 35%;
 	padding-right: 90px;
 	text-align: right;
 }
-#resume .timeline-header h3 {
+#CV .timeline-header h3 {
 	margin-bottom: 0;
 }
-#resume .timeline-header p {
+#CV .timeline-header p {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.6rem;
 	color: #888888;
 }
-#resume .timeline-content {
+#CV .timeline-content {
 	margin-left: 35%;
 	padding-left: 60px;
 }
-#resume .timeline-content h4 {
+#CV .timeline-content h4 {
 	position: relative;
 	padding-bottom: 1.8rem;
 }
-#resume .timeline-content h4::after {
+#CV .timeline-content h4::after {
 	content: "";
 	display: block;
 	height: 3px;
@@ -1708,68 +1708,68 @@ header .logo a {
 
 /**
  * responsive:
- * resume
+ * CV
  * ------------------------------------------------------------------- 
  */
 @media only screen and (max-width:1024px) {
-	#resume .timeline-header {
+	#CV .timeline-header {
 		padding-right: 50px;
 	}
-	#resume .timeline-header h3 {
+	#CV .timeline-header h3 {
 		font-size: 1.8rem;
 	}
-	#resume .timeline-header p {
+	#CV .timeline-header p {
 		font-size: 1.4rem;
 	}
-	#resume .timeline-content {
+	#CV .timeline-content {
 		padding-left: 50px;
 	}
 }
 @media only screen and (max-width:768px) {
-	#resume .timeline-wrap::before {
+	#CV .timeline-wrap::before {
 		left: 2.4rem;
 	}
-	#resume .timeline-ico {
+	#CV .timeline-ico {
 		left: 2.4rem;
 	}
-	#resume .timeline-header {
+	#CV .timeline-header {
 		float: none;
 		width: auto;
 		padding-right: 15px;
 		text-align: left;
 	}
-	#resume .timeline-header h3 {
+	#CV .timeline-header h3 {
 		font-size: 2rem;
 	}
-	#resume .timeline-header p {
+	#CV .timeline-header p {
 		font-size: 1.5rem;
 		margin-bottom: 1.5rem;
 	}
-	#resume .timeline-content {
+	#CV .timeline-content {
 		margin: 0;
 	}
-	#resume .timeline-content h4 {
+	#CV.timeline-content h4 {
 		padding-bottom: 0;
 		padding-top: 2.1rem;
 		margin-bottom: .6rem;
 		font-size: 1.7rem;
 	}
-	#resume .timeline-content h4::after {
+	#CV .timeline-content h4::after {
 		bottom: auto;
 		top: 0;
 	}
-	#resume .timeline-header, #resume .timeline-content {
+	#CV .timeline-header, #CV .timeline-content {
 		padding-left: 7rem;
 	}
 }
 @media only screen and (max-width:480px) {
-	#resume .resume-header h2 {
+	#CV .CV-header h2 {
 		font-size: 2.2rem;
 	}
-	#resume .timeline-wrap::before {
+	#CV .timeline-wrap::before {
 		left: 1.8rem;
 	}
-	#resume .timeline-ico {
+	#CV .timeline-ico {
 		height: 3.6rem;
 		width: 3.6rem;
 		line-height: 3.6rem;
@@ -1777,7 +1777,7 @@ header .logo a {
 		margin-left: -1.8rem;
 		font-size: 1.5rem;
 	}
-	#resume .timeline-header, #resume .timeline-content {
+	#CV .timeline-header, #CV .timeline-content {
 		padding-left: 5.5rem;
 	}
 }
