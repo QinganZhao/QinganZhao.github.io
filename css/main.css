@@ -327,7 +327,7 @@ table {
 }
 th, td {
 	padding: 1.5rem 3rem;
-	text-align: justify;
+	text-align: left;
 	border-bottom: 1px solid #E8E8E8;
 }
 th {
@@ -1240,7 +1240,7 @@ header .logo a {
 .main-navigation > li {
 	display: block;
 	height: auto;
-	text-align: justify;
+	text-align: left;
 	padding: 0;
 }
 .main-navigation li a {
@@ -1511,13 +1511,13 @@ header .logo a {
 	float: left;
 }
 .intro-info .lead {
-	text-align: justify;
+	text-align: left;
 	padding-left: 13rem;
 }
 
 .about-content {
 	position: relative;
-	text-align: justify;
+	text-align: left;
 	max-width: 850px;
 	margin-bottom: 3.6rem;
 }
@@ -1736,7 +1736,7 @@ header .logo a {
 		float: none;
 		width: auto;
 		padding-right: 15px;
-		text-align: justify;
+		text-align: left;
 	}
 	#resume .timeline-header h3 {
 		font-size: 2rem;
@@ -1926,7 +1926,7 @@ header .logo a {
 	text-transform: uppercase;
 	letter-spacing: .1rem;
 	display: block;
-	text-align: justify;
+	text-align: left;
 	color: rgba(0, 0, 0, 0.5);
 }
 .popup-modal .link-box {
