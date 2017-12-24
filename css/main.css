@@ -2171,9 +2171,10 @@ header .logo a {
  * lifestyle
  * -------------------------------------------------------------------
  */
-@media only screen and (max-width:650px) {
+@media only screen and (max-width:600px) {
 	.lifestyle-content {
-		max-width: 650px;
+		width: auto;
+		margin: 0 20px;
 	}
 	.lifestyle-content h2 {
 		font-size: 2.4rem;
@@ -2256,7 +2257,6 @@ header .logo a {
 	display: inline-block;
 }
 .owl-theme .owl-controls .owl-page span {
-	display: block;
 	width: 1.2rem;
 	height: 1.2rem;
 	margin: 1.2rem .8rem 0 .8rem;
@@ -2301,7 +2301,6 @@ header .logo a {
 	margin-top: 1.2rem;
 	margin-bottom: 0;
 	font-family: "poppins-medium", sans-serif;
-	color: white;
 }
 #stats .stat-title {
 	color: rgba(255, 255, 255, 0.5);
@@ -2673,7 +2672,6 @@ footer .copyright span:last-child::after {
 	text-align: center;
 	background: #cc005f;
 	color: #FFFFFF;
-	text-align: center;
 	text-transform: uppercase;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
