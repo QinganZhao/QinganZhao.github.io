@@ -289,3 +289,5 @@
 	});		
 
 })(jQuery);
+
+$('img.lazy').lazyload();
